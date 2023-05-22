@@ -1,0 +1,35 @@
+@media screen and (max-width:1150px){
+    .header__nav {
+        flex-direction: row;
+        gap: 50px;
+        justify-content: start;
+    }
+    .wrap{
+        display: block;
+    }
+    .block2{
+        margin-top: 30px;
+    }
+    .img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:980px) {
+    .footer{
+        width: 100%;
+    }
+}
+@media screen and (max-width:890px){
+    .header__nav {
+        width: 100px;
+    }
+    .nav__menu{
+        display: block;
+    }
+}
+@media screen and (max-width:520px){
+    .footer{
+        display: block;
+        text-align: center;
+    }
+}
